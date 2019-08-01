@@ -7,17 +7,17 @@ import java.util.List;
 public class Jogador {
 	private static int rodadas = 24;
 	
-	private static int qtdAnalistas = 3;
-	private static int qtdImplem = 3;
+	private static int qtdAnalistas = 2;
+	private static int qtdImplem = 2;
 	private static int qtdQA = 2;	
 	
 	private static boolean fimAnalise = false;
 	private static boolean fimImplem = false;
 	private static boolean fimQA = false;
 	
-	private static int[] diasAnalise = {3,3,5,4,3,7,5,4,6,8,10,8,8,10,6,8,8,10,12,5,10,20,15,15};
-	private static int[] diasImplem = {2,3,3,4,5,3,5,6,7,8,5,8,5,10,15,10,12,12,12,10,15,10,15,15};
-	private static int[] diasQA = {2,5,3,4,5,3,5,6,6,5,8,8,12,8,8,12,10,10,10,20,12,10,15,20};
+	private static int[] diasAnalise = {4,5,10,5,10,8,10,12,15,8,10,15,25,20,20};
+	private static int[] diasImplem = {5,8,5,5,12,10,10,10,8,12,10,12,20,10,20};
+	private static int[] diasQA = {10,10,8,15,5,10,10,10,10,15,15,15,25,15,20};
 	
 	public static void main(String[] args) {
 		Jogador j = new Jogador();
